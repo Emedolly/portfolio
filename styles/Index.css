@@ -8,7 +8,7 @@
 body{
   padding: 2rem 0; /* Provides space in top and bottom of form */
   font-family: Arial,sans-serif;
-  background-image: url('./Images/PaintingBgImg.avif');
+  background-image: url(/Images/GitHubProfileImg.JPEG);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
