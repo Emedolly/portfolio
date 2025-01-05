@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Painting survey form</title>
+    <link rel="stylesheet" href="./styles/Index.css" />
+  </head>
+
+  <body>
+    <h1 id="title">Painting Survey Form</h1>
+    <p id="description">
+      we would love to know about your painting preferences
+    </p>
+    <form method="post" id="survey-form">
+      <label for="name" id="name-label" class="question"
+        >Name:
+        <input
+          type="text"
+          id="name"
+          name="firstname"
+          placeholder="Enter your name"
+          required
+          class="inputFieldStyle"
+        />
+      </label>
+
+      <label for="email" id="email-label" class="question"
+        >Email:
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+          class="inputFieldStyle"
+        />
+      </label>
+
+      <label for="number" id="number-label" class="question"
+        >How much experience do you have as a painter?
+        <input
+          type="number"
+          id="number"
+          name="age"
+          min="1"
+          max="60"
+          placeholder="Enter the years of experience"
+          required
+          class="inputFieldStyle"
+        />
+      </label>
+
+      <label for="dropdown" class="question"
+        >Favorite painting Style:
+        <select id="dropdown" name="dropdown" class="inputFieldStyle">
+          <option value="" disabled selected>--Select--</option>
+          <option value="abstract">Abstract</option>
+          <option value="reealism">Realism</option>
+          <option value="impressionism">Impressionism</option>
+          <option value="cubism">Cubism</option>
+          <option value="modern">Modern</option>
+        </select>
+      </label>
+
+      <fieldset>
+        <legend class="question">Would you recommend to use painting apps?</legend>
+        <label for="Definitely">
+          <input
+            id="Definitely"
+            type="radio"
+            name="user-recommend"
+            checked
+            value="Definitely"
+            class="inline inputFieldStyle"
+          />Definitely
+        </label>
+        <label for="Maybe">
+          <input
+            type="radio"
+            id="Maybe"
+            name="user-recommend"
+            value="Maybe"
+            class="inline inputFieldStyle"
+          />Maybe
+        </label>
+        <label for="NotSure">
+          <input
+            type="radio"
+            id="NotSure"
+            name="user-recommend"
+            value="NotSure"
+            class="inline inputFieldStyle"
+          />Not sure
+        </label>
+      </fieldset>
+
+      <label for="user-preference" class="question"
+        >Preferred Color Palette:
+        <select id="user-preference" name="user-preference" class="inputFieldStyle">
+          <option value="" disabled selected>--Choose Fav Palette--</option>
+          <option value="warm">Warm Tones</option>
+          <option value="cool">Cool Tones</option>
+          <option value="neutral">Neutral Tones</option>
+          <option value="vibrant">Vibrant colors</option>
+        </select>
+      </label>
+
+      <fieldset>
+        <legend class="question">Preferred Painting Techniques:</legend>
+        <label for="brush"
+          ><input
+            id="brush"
+            type="checkbox"
+            name="techniques"
+            value="brush"
+            class="inline inputFieldStyle"
+          />Brush strokes</label
+        >
+        <label for="palette-knife"
+          ><input
+            id="palette-knife"
+            type="checkbox"
+            name="techniques"
+            value="palette-knife"
+            class="inline inputFieldStyle"
+          />Palette-knife</label
+        >
+        <label for="drip"
+          ><input
+            id="drip"
+            type="checkbox"
+            name="techniques"
+            value="drip"
+            class="inline inputFieldStyle"
+          />Drip Painting</label
+        >
+        <label for="airbrush"
+          ><input
+            id="airbrush"
+            type="checkbox"
+            name="techniques"
+            value="airbrush"
+            class="inline inputFieldStyle"
+          />Airbrushing</label
+        >
+      </fieldset>
+
+      <label for="comments" class="question"> Additional Comments:</label>
+      <textarea
+        id="comments"
+        name="comments"
+        rows="4"
+        cols="30"
+        placeholder="Share your thoughts here.."
+        class="inputFieldStyle"
+      ></textarea>
+
+      <input id="submit" type="submit" value="Submit" class="inputFieldStyle"/>
+    </form>
+  </body>
+</html>

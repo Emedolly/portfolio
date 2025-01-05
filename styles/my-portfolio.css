@@ -1,0 +1,110 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  color: black;
+  font-family: sans-serif;
+  background: #f2a2db;
+  background-color: #8EC5FC;
+  background: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  padding-top: 5rem;
+}
+
+.nav-bar {
+  display: flex;
+  flex-wrap: wrap; /* Makes the items wrap in smaller screens */
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 12px 40px -10px rgba(18, 55, 107, 0.3);
+  background-color: rgba(255, 255, 255, 0.375);
+  backdrop-filter: blur(.5rem);
+  border-radius: 2rem;
+  
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  right: 1rem;
+}
+
+.img-logo #logo {
+  width: 30px;
+}
+h1 {
+  display: inline;
+}
+.nav-links ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 3px;
+  flex-wrap: wrap; /* Allow items to wrap */
+  justify-content: center;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.nav-item.active,
+.nav-item:hover {
+  color: #1e46e1;
+}
+
+.nav-item.active {
+  background-color: #e1b91e;
+  padding: 8px 15px;
+  border-radius: 20px;
+  color: #161b22;
+}
+
+.skills-section {
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding-left: 16px;
+  padding: 2rem;
+}
+
+.category {
+  font-weight: 200;
+  margin-bottom: 1.2rem;
+}
+
+.subHeaders {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 0.8rem;
+  row-gap: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.tags span {
+  background: #21262d;
+  padding: 0.4rem 0.8rem;
+  color: white;
+  border-radius: 18px;
+  transition: all 0.3s ease;
+}
+
+.tags span:hover {
+  background-color: #0d1117;
+  color: #ffffff;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.footercss {
+  justify-items: center;
+}
