@@ -7,7 +7,7 @@
 
 body{
   padding: 2rem 0; /* Provides space in top and bottom of form */
-  font-family: sans-serif;
+  font-family: Arial,sans-serif;
   background-image: url("https://emedolly.github.io/portfolio/Images/PaintingBgImg.avif");
   background-size: cover;
   background-repeat: no-repeat;
