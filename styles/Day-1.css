@@ -1,0 +1,8 @@
+body{
+  background-color: gray;
+}
+
+@font-face {
+  font-family: 'MyCustonFont';
+  src: url('../Day-1/fonts/Figtree-VariableFont_wght.ttf') format('ttf');
+}
