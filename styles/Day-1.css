@@ -1,8 +1,102 @@
-body{
-  background-color: paleturquoise;
-}
 
 @font-face {
-  font-family: 'MyCustonFont';
+  font-family: 'MyCustomFont';
   src: url('../Day-1/fonts/Figtree-VariableFont_wght.ttf') format('ttf');
+}
+
+body{
+  background-color: #f3ce57;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10rem;
+}
+
+.Firstcard{
+  background-color: white;
+  border-radius: 15px;
+  max-width: 300px;
+  overflow: hidden;
+  padding: 14px;
+  box-shadow: 8px 8px 0px;
+  border: 1px solid black;
+}
+
+.card-img{
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.card-content{
+  padding: 10px 0 0;
+}
+
+.heading{
+  background-color: #f3ce57;
+  padding: 4px 8px;
+  margin-top: 4px;
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+}
+
+.publish-date{
+  color: black;
+  margin: 10px 0;
+  font-size: 12px;
+}
+
+h4{
+  margin:1em 0;
+  font-weight: bold;
+  color: #1c1c1c;
+  letter-spacing: 0.5px;
+}
+
+.description{
+  color:#5a5a5a;
+  margin: 10px 0;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.author-info{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  column-gap:10px;
+  margin-top: 10px;
+}
+.author-img{
+  margin-top: 2px;
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+}
+
+.author p{
+  margin: 0;
+  color: #1c1c1c;
+}
+
+/* Reduces the card width while dragging */
+@media screen {
+  .Firstcard{
+    max-width: 200px;
+  }
+}
+@media (min-width: 768px) {
+  .Firstcard {
+    max-width: 300px; /* Increase max width for tablets and desktops */
+  }
 }
