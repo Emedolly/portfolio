@@ -4,6 +4,9 @@
   src: url('../Day-1/fonts/Figtree-VariableFont_wght.ttf') format('ttf');
 }
 
+span, .publish-date ,h4,.description{
+  font-family: 'MyCustomFont',sans-serif; 
+}
 body{
   background-color: #f3ce57;
   display: flex;
