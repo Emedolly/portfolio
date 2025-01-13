@@ -4,6 +4,11 @@
   src: url('../Day-1/fonts/Figtree-VariableFont_wght.ttf') format('ttf');
 }
 
+@font-face {
+  font-family: 'MyCustomFont1';
+  src: url('../Day-1/fonts/Figtree-Italic-VariableFont_wght.ttf') format('ttf');
+}
+
 span, .publish-date ,h4,.description{
   font-family: 'MyCustomFont',sans-serif; 
 }
