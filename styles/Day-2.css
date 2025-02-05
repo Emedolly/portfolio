@@ -15,6 +15,13 @@
   background: linear-gradient(to right top,#43399f,#4ec4c9);
 	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
 }
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
 
 /* 
 .frame {
@@ -108,3 +115,6 @@
 	letter-spacing: 0rem;
 	margin: 0;
 } */
+
+/* 
+https://34tpnhl6-5000.inc1.devtunnels.ms/clinic-login */
